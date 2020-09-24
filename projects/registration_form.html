@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>William Ruto</title>
-        <link rel="stylesheet" href="tribute.css">
+        <link rel="stylesheet" href="registration_form.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </head>
@@ -16,27 +16,59 @@
         </nav>
         <main id="main">
             <div id="name-title">
-                <h1 id="title">Dr. William Samoei Ruto</h1/>
-                <h2 id="sub-title"> Deputy President of The Republic of Kenya</h2>
+                <h1 id="title">Register Interest</h1/>
+                <p id="description"> Kindly enter your details below</p>
             </div>
-            <div  id="img-div">
-                <img src="https://d.newsweek.com/en/full/444231/kenyas-deputy-president-william-ruto-speaks-hague.webp?w=737&f=955022c4988526f23d50fbd223e52a9f" id="image"></img>
-                <figcaption id="img-caption">William Samoei Ruto</figcaption>
+            <div  id="form-div">
+                <form id= 'survey-form'>
+                    <label for="name" id="name-label">First Name</label><br><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                    <label for="email" id="email-label">Email</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+                    <label for="number" id="number-label">Enter ID No</label><br><br>
+                    <input type="number" id="number" name="number" min="1" max="99" placeholder="Enter a value between 1-99"><br><br>
+                    <label for="cars" id="cars-label"> Select Car </label> <br>
+                    <select name="cars" id="dropdown">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select><br><br>
+                    <label id="color-topic"> Select Vehicle Body Color</label></br>
+                    <label for="color" id="color-label">
+                        <input id="color" type="radio" name="color" value="Red" checked> Red </label>
+                    </label>
+                    <label for="color" id="color-label">
+                        <input id="color" type="radio" name="color" value="Blue"> Blue </label>
+                    </label>
+                    <label for="color" id="color-label">
+                        <input id="color" type="radio" name="color" value="Orange"> Orange </label>
+                    </label>
+                    <label for="color" id="color-label">
+                        <input id="color" type="radio" name="color" value="Green"> Green </label>
+                    </label>
+                    <br><br>
+                    <label id="engine-topic"> Select Vehicle Engine Size</label></br>
+                    <label for="engine" id="engine">
+                        <input id="engine" type="checkbox" name="engine" value="2500" checked> 2500 cc </label><br>
+                    </label>
+                    <label for="engine" id="engine-label">
+                        <input id="engine" type="checkbox" name="engine" value="3000"> 3000 cc </label><br>
+                    </label>
+                    <label for="engine" id="engine-label">
+                        <input id="engine" type="checkbox" name="engine" value="3500"> 3500 cc </label><br>
+                    </label>
+                    <label for="engine" id="engine-label">
+                        <input id="engine" type="checkbox" name="engine" value="4600"> 4600 cc </label><br>
+                    </label>
+                    <br><br>
+                    <label for="comment" id="comment-label">Add any further information here</label><br><br>
+                    <textarea id="comment" type="textarea" name="commment" placeholder="Enter Comment Here"></textarea><br><br>
+                    <button type="submit" value="Submit" id="submit">Submit<br><br><br>
+                </form>
             </div>
-            <br>
-            <div id="tribute-info">
-                <article id="tribute-article">
-                    <p>William Kipchirchir Samoei Arap Ruto (born 21 December 1966) is a Kenyan politician and the Deputy President of Kenya since 2013.
-                        He served as the Acting President of Kenya between 6 and 8 October 2014 when President Uhuru Kenyatta was at the Hague.
-                        He previously served in various ministerial positions, including the Ministry of Home Affairs, the Ministry of Agriculture, and the Ministry of Higher Education Science and Technology.</section> 
-                        He was Secretary General of KANU, the former ruling political party, and the MP for Eldoret North Constituency between December 1997 and January 2013.</p>
-                    <p> He won the seat in the 1997 Kenyan election after defeating Reuben Chesire.
-                        He was appointed to the position of Assistant Minister in the Office of the President by President Daniel arap Moi in 1998.
-                        He was promoted to be Minister for Home Affairs in August 2002.
-                        Ruto also previously served as the Chairman of the Parliamentary Select Committee on Constitutional Reform in the 9th Parliament.</p>
-
-                </article>
-            </div>
+            <br><br><br>
+           
             <div id="wiki-link">
                 <a href="https://en.wikipedia.org/wiki/William_Ruto" id="tribute-link" target="_blank"> Click here for further info</a>
             </div>
