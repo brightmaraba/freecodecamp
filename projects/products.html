@@ -2,24 +2,63 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Libran Consult : Home</title>
+        <title>Libran Consult : Products</title>
         <link rel="stylesheet" href="products.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </head>
-    <body>
-        <div class="topnav">
+    <body class="body">
+      <header id="header">
+        <nav id="nav-bar">
             <a class="active" href="home.html">Home</a>
             <a href="registration.html">Registration</a>
-            <a href="products.html">Products</a>
             <div class="topnav-right">
-              <a href="#search">Search</a>
-              <a href="#about">About</a>
+              <a href="#video-container" class="nav-link">Video</a>
+              <a href="#products" class="nav-link">Products</a>
+              <a href="#email" class="nav-link">Contact Us</a>
             </div>
-          </div> 
+        </nav>
+        <img id="header-img" src="https://d2u4q3iydaupsp.cloudfront.net/8qjTQy1Apwj3wjixUyT0pnvxWW98FmdRb7decLVk3fjUz1VtlbZA3ZY7A17gXHe2NXKHa7Xh4OIPXV7rmLsdnz6LfJF7B0qo8vKF887NBksZu1F7JpRs0ddRhmfTXV7l">
+      </header>
         <main id="main">
+          <div id="video-container">
+            <h1 id="video-header">An Awesome Video</h1>
+            <video id="video" src="http://techslides.com/demos/sample-videos/small.mp4" controls></video>
+          </div>
+          <br><br>
+          <div id="products">
+            <div id="prod">
+              <div id="prod-img"><img src="/icons/002-ruler.png"></img></div>
+              <div id="prod-name">Rulers</div>
+              <div id="prod-desc">
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel efficitur justo. Etiam dictum tortor nec mi feugiat, vitae maximus sem condimentum. Cras hendrerit eros non ornare convallis. Vestibulum diam lectus, ullamcorper a scelerisque vitae, mattis in ligula. Pellentesque sed odio commodo, vulputate sem in, varius leo. Maecenas condimentum aliquet feugiat. Vestibulum id felis sapien. Ut dapibus nec nisl vel hendrerit. </article>
+              </div>
+            </div>
+            <div id="prod">
+              <div id="prod-img"><img src="/icons/016-book.png"></img></div>
+              <div id="prod-name">Books&nbsp</div>
+              <div id="prod-desc">
+                <article>Nulla elementum ex diam, ac convallis magna faucibus a. Nam condimentum viverra mauris, ac vehicula tellus tincidunt ut. Integer pulvinar tortor sed ultricies tristique. Aliquam nec ante euismod dui volutpat consequat at nec ante. Pellentesque tristique sapien vel lectus iaculis, et tempor ipsum auctor. Nunc ut aliquam metus. In volutpat purus sed diam pharetra gravida. Proin viverra lorem vitae justo tristique volutpat. Donec pellentesque facilisis fermentum. Pellentesque maximus non erat eget ultricies. Vivamus nec enim ullamcorper, semper nunc et, tincidunt libero. Duis et lectus sed dolor egestas ullamcorper et vitae erat. </article>
+              </div>
+            </div>
+            <div id="prod">
+              <div id="prod-img"><img src="/icons/001-test.png"></img></div>
+              <div id="prod-name">Test&nbsp&nbsp&nbsp&nbsp</div>
+              <div id="prod-desc">
+                <article>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla accumsan nulla quis lorem dignissim, vel dignissim metus congue. Praesent tortor sapien, faucibus volutpat consequat sed, euismod mollis sapien. Nulla quis justo vitae dui pretium aliquet. Morbi at rhoncus nulla. Etiam elit mi, luctus nec metus ut, ornare imperdiet quam. Nunc nec libero sollicitudin, mattis nisi cursus, lacinia quam. Nam sit amet commodo lacus. In vel malesuada ligula, et fringilla leo.  </article>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div id="form-container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+              <label for="email" id="email-label">Enter Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your Email" required> <br><br>
+              <input type="submit" value="Submit" id="submit">Submit</button><br>
+            </form>
+          </div>
         </main>
         <br>
-        <footer class="footer">www.libranconsult.com</footer>
+        <footer id="footer">www.libranconsult.com</footer>
     </body>
 </html>
