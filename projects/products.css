@@ -11,7 +11,7 @@
 #header-img {
   height:100;
   justify-self: center;
-  padding: 14px 16;
+  padding: 14px 16px;
 }
 #nav-bar {
   overflow: hidden;
@@ -55,8 +55,7 @@
   border-color: green;
   border-radius: 10px;
   flex-direction: column;
-  margin-right: 10px;
-  margin-left: 100px;
+  margin: auto;
 }
 #video {
   width: 100%;

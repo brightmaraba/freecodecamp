@@ -1,0 +1,130 @@
+.body {
+    background-color: #f1e7e8;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+}
+#header {
+    display: grid;
+    height: auto;
+    }
+#header-img {
+    height:100;
+    justify-self: center;
+    padding: 14px 16px;
+    }
+#nav-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+#nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#nav-bar a.active {
+    background-color: #4CAF50;
+    color: white;
+    }
+
+.topnav-right {
+    float: right;
+}
+#header-img {
+    margin-top: 50;
+    }
+
+#main-doc {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section {
+    width: 700;
+}
+
+#section-header {
+    font-weight: bold;
+}
+#navbar-div{
+    width: 300px;
+}
+#navbar {
+    background-color: #333;
+    position: fixed;
+    width: 200px;
+    }
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+    }
+
+#navbar-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding:;
+}
+.nav-link {
+    border: 0;
+}
+#footer{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    color: #f2f2f2;
+    background-color: #333;
+    }
+
+@media (min-width: 300px) {
+    #footer {
+        justify-self: center;
+        }
+    }
+.main-section {
+    width: 700;
+}
+
+#section-header {
+    font-weight: bold;
+}
+.nav-link {
+    font-family: Helvetica;
+}
+
+#footer{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    color: #f2f2f2;
+    background-color: #333;
+    }
+
+@media (min-width: 300px) {
+    #footer {
+        justify-self: center;
+        }
+    }
